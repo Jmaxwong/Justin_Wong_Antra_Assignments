@@ -166,24 +166,8 @@ FROM Employees e
 SELECT FullName, COUNT(*)
 FROM
 (SELECT e1.EmployeeID, e1.FirstName + ' ' + e1.LastName as FullName, e1.ReportsTo
-FROM Employees e1 JOIN Employees e2 ON e1.ReportsTo = e2.EmployeeID) tb
+FROM Employees e1 JOIN Employees e2 ON e1.EmployeeID = e2.ReportsTo) tb
 GROUP BY FullName
- -- not correct fix
-/*
-WITH EmpHierarchyCTE
-AS
-(
-	SELECT EmployeeID, FirstName, ReportsTo, 0 Underlings
-	FROM Employees
-	WHERE ReportsTo is not null
-
-	UNION ALL
-
-	SELECT e.EmployeeID, e.FirstName, e.ReportsTo, cte.Underlings + 1
-	FROM Employees e JOIN EmpHierarchyCTE cte ON e.ReportsTo = cte.EmployeeID
-)
-SELECT * FROM EmpHierarchyCTE
-*/
 
 --27.
   --City Name Contact Name Type
