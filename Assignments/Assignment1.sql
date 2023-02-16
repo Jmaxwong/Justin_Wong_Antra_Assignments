@@ -1,5 +1,5 @@
 USE AdventureWorks2019
-GO;
+GO
 
 --1. 
 SELECT ProductID, Name, Color, ListPrice
