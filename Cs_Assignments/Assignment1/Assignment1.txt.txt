@@ -16,3 +16,19 @@
 3. Managed resource is code that is controlled by runtime, while unmanaged resource is any code that is not run by the CLR (Common Language Runtime).
 
 4. The garbage collector automatically manages all the memory allocation of the program.
+
+
+
+1. You will encounter an Divide by Zero error.
+2. The double will turn into Infinity
+3. You will recieve an error, stating that you cannot convert a long into an int
+4. The first statement assigns y to x, then increments y. The second statement first increments y, then is assigned to x.
+5. Break statements ends and leaves the loop that the code is currently in. Continue statements just skips the rest of the current iteration in the loop. Return statements leave the current method.
+6. The 3 parts of the for loop is initialization, condition, and update.
+	ex) for(int i = 0; i < n; i++)
+7. The = operator is used to assign variables to values, while == operator is a equality operator that checks if 2 values/references are equivalent.
+8. Yes
+9. The underscore is another way to write the default keyword in the switch cases.
+10. An object must implement the IEnumerable interface to be enumerated over using the foreach statement.
+
+

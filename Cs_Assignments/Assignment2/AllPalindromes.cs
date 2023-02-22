@@ -2,9 +2,8 @@
 
 public class AllPalindromes
 {
-    public void allPalindromes()
+    public void allPalindromes(string input)
     {
-        string input = "Hi, exe? ABBA! Hog fully a string: ExE.Bob";
 
         char[] del = { ' ', ',', '.', '!', '?', ':'};
         string[] splt = input.Split(del, StringSplitOptions.RemoveEmptyEntries);
