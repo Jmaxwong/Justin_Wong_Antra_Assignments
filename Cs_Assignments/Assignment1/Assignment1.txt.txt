@@ -1,0 +1,18 @@
+1.
+- ulong / string
+- height: uint
+- age: ushort
+- gender: string
+- salary: decimal
+- ISBN: ulong
+- book price: decimal
+- book shipping weight: ushort
+- country population: udouble
+- stars in universe: udouble
+- number of employees: ushort
+
+2. Value types are data types that hold their own data, while Reference types store the reference to their data, not the data itself.
+
+3. Managed resource is code that is controlled by runtime, while unmanaged resource is any code that is not run by the CLR (Common Language Runtime).
+
+4. The garbage collector automatically manages all the memory allocation of the program.

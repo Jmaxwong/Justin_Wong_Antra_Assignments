@@ -1,0 +1,7 @@
+﻿1. String is used when you do not intend to alter your string value (immutable), while StringBuilder is used when the string will be changed in the future (mutable). 
+2. The base class for all arrays is the Array class. 
+3. You can use the Array.Sort() method to sort any array.
+4. Length
+5. No
+6. CopyTo starts copying from a given index to the end of the new array, while Clone copies the entire given array.
+
