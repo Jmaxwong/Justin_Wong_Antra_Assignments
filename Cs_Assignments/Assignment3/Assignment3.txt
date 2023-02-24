@@ -1,0 +1,34 @@
+﻿2. Static: used on functions and classes to indicate that the method/value belongs to the class itself, not the object of the class.
+Const: used on values to declare that they are not modifiable
+readonly: similar to Const, but the readonly modifier allows the variable to be initialized at runtime, while const is known by compile time.
+
+3. A constructor is a special method in a class with the same name that is used for initializing an object of the class
+
+4. Partial shows that the other parts of the class or interface can be define in the namespace.
+
+5. A tuple is a generic data structure that holds same type values
+
+6. The record keyword is used to define a reference type that have contain encapsulation functionality.
+
+7. Overloading refers to when two methods have the same name but different parameter arguments. Overriding is when a child class uses its own method name instead of the parent method.
+
+8. A field is a variable that is defined inside the class, while a property provides a way to access the fields inside a class.
+
+9. You can make an optional parameter by initializing the parameter with a value after the required parameters.
+
+10. An interface is a contract that requires any classes that implement the interface to implement every function declared inside.
+
+11. Interfaces are always public.
+
+12. False
+13. True
+14. False
+15. True, just need to implement the abstract method
+16. False
+17. True
+18. True
+19. False
+20. False
+21. True
+22. False
+23. True
