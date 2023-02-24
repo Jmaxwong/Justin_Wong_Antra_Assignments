@@ -1,0 +1,10 @@
+﻿1. Generics allow us to create type safe classes without needing to specify types during declaration.
+2. List<string> strls = new List<string>();
+3. the Dictionary class has 2 parameters: key and value
+4. False
+5. Add()
+6. Remove() and RemoveAt()
+7. <T>
+8. False
+9. True
+10. False
