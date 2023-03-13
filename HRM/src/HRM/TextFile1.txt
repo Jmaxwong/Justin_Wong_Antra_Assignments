@@ -1,0 +1,27 @@
+MVC
+Model -> Data that you want to use in your page
+View -> HTML CSS JavaScript + Razor Syyntax (HTML with some C#)
+Controller -> Jobs
+		Action methods
+
+Routes
+URL https://www.example.com/jobs/index 
+URL  https://www.example.com/jobs/details/6 
+
+VIEW -> list of jobs that you can apply
+MODEL -> List<Job>
+Models based on what the requirement needs 
+
+public class Job {
+	JobCode
+	Title
+	Description
+	Salary
+	DatePosted
+	StartDate
+}
+
+
+https://www.example.com/submissions/index -> List of submissions
+
+https://www.example.com/profile/details/3
