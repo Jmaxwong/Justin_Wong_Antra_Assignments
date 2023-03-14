@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\jmaxw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jmaxw\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj": {}
+    "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj": {
+    "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj",
+        "projectUniqueName": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj",
         "projectName": "RecruitingWeb",
-        "projectPath": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj",
+        "projectPath": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj",
         "packagesPath": "C:\\Users\\jmaxw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\obj\\",
+        "outputPath": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\Recruiting\\RecruitingWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jmaxw\\AppData\\Roaming\\NuGet\\NuGet.Config",

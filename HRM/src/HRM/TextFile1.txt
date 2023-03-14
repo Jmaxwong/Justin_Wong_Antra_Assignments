@@ -1,6 +1,6 @@
 MVC
 Model -> Data that you want to use in your page
-View -> HTML CSS JavaScript + Razor Syyntax (HTML with some C#)
+View -> HTML CSS JavaScript + Razor Syntax (HTML with some C#)
 Controller -> Jobs
 		Action methods
 
@@ -21,7 +21,20 @@ public class Job {
 	StartDate
 }
 
+Entity Framework
 
 https://www.example.com/submissions/index -> List of submissions
 
 https://www.example.com/profile/details/3
+
+Entities -> will have objects tthat represent our DB tables
+Models -> will have objcts that represent your UI
+
+Services -> Domain/Business Logic
+
+GetJobById
+Send Confirmation Email
+Get All Jobs
+Create Submission
+
+Controller => Services => Repositories (EF Core or Dapper or ADO.NET) -> Databasee
