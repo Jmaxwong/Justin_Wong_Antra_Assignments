@@ -1,0 +1,15 @@
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\bin\Debug\net7.0\ApplicationCore.dll
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\bin\Debug\net7.0\ApplicationCore.pdb
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Users\jmaxw\OneDrive\Documents\GitHub\Justin_Wong_Antra_Assignments\HRM\src\Services\Recruiting\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
