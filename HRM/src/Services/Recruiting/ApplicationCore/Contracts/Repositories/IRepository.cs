@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Contracts.Repositories
 {
-    public interface IRepository
+    public interface IRepository<T> where T: class
     {
+        Task<IEnumerable<T>> GetAllAsync();
+        Task<bool> GetExistsAsync();
     }
 }

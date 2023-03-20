@@ -11,15 +11,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnBoarding", "OnBoarding", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{B4638C71-37AE-4902-ACC6-5C9CB03255E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitingWeb", "..\Services\Recruiting\RecruitingWeb\RecruitingWeb.csproj", "{59C68521-C528-436F-9239-5E8ADC0B1E10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitingWeb", "..\Services\Recruiting\RecruitingWeb\RecruitingWeb.csproj", "{59C68521-C528-436F-9239-5E8ADC0B1E10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCore", "..\Services\Recruiting\ApplicationCore\ApplicationCore.csproj", "{1C12E4B7-E699-445D-9F46-3BD3D2CA26FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore", "..\Services\Recruiting\ApplicationCore\ApplicationCore.csproj", "{1C12E4B7-E699-445D-9F46-3BD3D2CA26FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Services\Recruiting\Infrastructure\Infrastructure.csproj", "{29FDCE73-BAC5-4460-B087-2E763F72F92E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\Services\Recruiting\Infrastructure\Infrastructure.csproj", "{29FDCE73-BAC5-4460-B087-2E763F72F92E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D299F7D1-6DDA-4166-A880-BCEDB41A124A}"
 	ProjectSection(SolutionItems) = preProject
 		TextFile1.txt = TextFile1.txt
+		TextFile2.txt = TextFile2.txt
 	EndProjectSection
 EndProject
 Global

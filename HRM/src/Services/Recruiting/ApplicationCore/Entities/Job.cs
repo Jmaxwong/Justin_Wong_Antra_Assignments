@@ -24,7 +24,7 @@ namespace ApplicationCore.Entities
 
         [MaxLength(1024)]
         public string? ClosedReason { get; set; }
-        public DateTime CreatedOn { get; set; }
+        public DateTime? CreatedOn { get; set; }
 
         public int JobStatusLookupId { get; set; }
 
