@@ -28,8 +28,5 @@ namespace ApplicationCore.Entities
 
         public List<Submission> Submissions { get; set; }
 
-
-
-
     }
 }

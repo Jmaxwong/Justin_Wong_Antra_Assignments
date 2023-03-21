@@ -9,9 +9,9 @@ namespace ApplicationCore.Contracts.Services
 {
     public interface ISubmissionService
     {
-        Task<List<JobResponseModel>> GetAllSubmissions();
-        Task<JobResponseModel> GetSubmissionById(int id);
+        Task<List<SubmissionResponseModel>> GetAllSubmissions();
+        Task<SubmissionResponseModel> GetSubmissionById(int id);
 
-        Task<int> AddSubmission(JobRequestModel model);
+        Task<int> AddSubmission(SubmissionRequestModel model);
     }
 }
