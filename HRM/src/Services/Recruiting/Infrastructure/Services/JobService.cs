@@ -62,7 +62,7 @@ namespace Infrastructure.Services
             {
                 Title = model.Title,
                 Description = model.Description,
-
+                JobCode = Guid.NewGuid(),
                 StartDate = model.StartDate,
                 CreatedOn = DateTime.UtcNow,
                 NumberOfPositions = model.NumberOfPositions,

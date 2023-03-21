@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TextFile2.txt = TextFile2.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruiting.API", "RecruitingAPI\Recruiting.API.csproj", "{29EC1E9A-3714-4F4A-B6EB-2EBFD6574BF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{29FDCE73-BAC5-4460-B087-2E763F72F92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29FDCE73-BAC5-4460-B087-2E763F72F92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29FDCE73-BAC5-4460-B087-2E763F72F92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29EC1E9A-3714-4F4A-B6EB-2EBFD6574BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EC1E9A-3714-4F4A-B6EB-2EBFD6574BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EC1E9A-3714-4F4A-B6EB-2EBFD6574BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EC1E9A-3714-4F4A-B6EB-2EBFD6574BF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{59C68521-C528-436F-9239-5E8ADC0B1E10} = {43ABD8E2-9F28-4E97-9F29-099FEEBFBB8F}
 		{1C12E4B7-E699-445D-9F46-3BD3D2CA26FA} = {43ABD8E2-9F28-4E97-9F29-099FEEBFBB8F}
 		{29FDCE73-BAC5-4460-B087-2E763F72F92E} = {43ABD8E2-9F28-4E97-9F29-099FEEBFBB8F}
+		{29EC1E9A-3714-4F4A-B6EB-2EBFD6574BF8} = {43ABD8E2-9F28-4E97-9F29-099FEEBFBB8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {57D3A8B0-74FA-47E3-952C-C680693CF4B1}
