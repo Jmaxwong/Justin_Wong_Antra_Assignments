@@ -8,5 +8,6 @@ namespace ApplicationCore.Contracts.Repositories
 {
     public interface ISubmission
     {
+
     }
 }

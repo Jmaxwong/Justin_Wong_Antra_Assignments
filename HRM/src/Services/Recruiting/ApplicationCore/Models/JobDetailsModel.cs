@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Models
 {
-    public class JobResponseModel
+    public class JobDetailsModel
     {
         public int Id { get; set; }
         public Guid JobCode { get; set; }
@@ -14,8 +14,9 @@ namespace ApplicationCore.Models
         public string Description { get; set; }
 
         public DateTime StartDate { get; set; }
-        public int NumberOfPositions { get; set; }
         public bool IsActive { get; set; }
+        public int NumberOfPositions { get; set; }
         public DateTime? CreatedOn { get; set; }
+
     }
 }

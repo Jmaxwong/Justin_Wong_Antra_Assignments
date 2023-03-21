@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Contracts.Services;
+using ApplicationCore.Models;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -34,17 +35,30 @@ namespace RecruitingWeb.Controllers
         {
             //get job by id
             var job = await _jobService.GetJobById(id);
-
             return View(job);
+
         }
 
         // Authenticated and User should have role for creating new Job
         // HR/Manager
-        [HttpPost]
+        [HttpGet]
         public IActionResult Create()
         {
             // take the information from the view and save to DB
             return View();
+        }
+
+        //saving the Job Information
+        [HttpPost]
+        public async Task<IActionResult> Create(JobRequestModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            await _jobService.AddJob(model);
+            return RedirectToAction("Index");
         }
     }
 }

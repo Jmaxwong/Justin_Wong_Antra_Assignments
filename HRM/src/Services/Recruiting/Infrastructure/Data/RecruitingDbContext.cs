@@ -22,6 +22,7 @@ namespace Infrastructure.Data
         public DbSet<JobStatusLookup> JobStatusLookups { get; set; }
         public DbSet<Submission> Submissions { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Candidate>(ConfigureCandidate);

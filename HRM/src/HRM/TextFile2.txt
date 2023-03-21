@@ -6,3 +6,6 @@ async/await -> 2012 older .net framework 4.5
 
 Thread Starvation -> running out of threads in the thread pool
 Prevention is async 
+
+
+To do validation we use Data Annotations

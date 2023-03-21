@@ -1,19 +1,17 @@
 ﻿using ApplicationCore.Models;
 using System;
 using System.Collections.Generic;
-using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ApplicationCore.Contracts.Services
 {
-    public interface IJobService
+    public interface ISubmissionService
     {
-        Task<List<JobResponseModel>> GetAllJobs();
-        Task<JobResponseModel> GetJobById(int id);
+        Task<List<JobResponseModel>> GetAllSubmissions();
+        Task<JobResponseModel> GetSubmissionById(int id);
 
-        Task<int> AddJob(JobRequestModel model);
-
+        Task<int> AddSubmission(JobRequestModel model);
     }
 }

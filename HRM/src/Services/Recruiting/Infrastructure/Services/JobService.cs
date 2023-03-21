@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ApplicationCore.Contracts.Repositories;
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
 using ApplicationCore.Models;
 
 namespace Infrastructure.Services
@@ -15,6 +16,7 @@ namespace Infrastructure.Services
         public JobService(IJobRepository jobRepository) { 
             _jobRepository= jobRepository;
         }
+
         public async Task<List<JobResponseModel>> GetAllJobs()
         {
             var jobs = await _jobRepository.GetAllJobs();
@@ -23,8 +25,14 @@ namespace Infrastructure.Services
             {
                 jobsResponseModel.Add(new JobResponseModel
                 {
-                    Id = job.Id, Description= job.Description, Title= job.Title, 
-                    StartDate = job.StartDate.GetValueOrDefault(), NumberOfPositions=job.NumberOfPositions
+                    Id = job.Id,
+                    JobCode= job.JobCode,
+                    Title = job.Title,
+                    Description = job.Description, 
+                    StartDate = job.StartDate.GetValueOrDefault(), 
+                    NumberOfPositions=job.NumberOfPositions,
+                    IsActive = job.IsActive,
+                    CreatedOn = job.CreatedOn.GetValueOrDefault()
                 });
 
                 
@@ -38,11 +46,30 @@ namespace Infrastructure.Services
             var jobResponseModel = new JobResponseModel
             {
                 Id = job.Id,
+                JobCode = job.JobCode,
                 Title = job.Title,
+                Description = job.Description,
                 StartDate = job.StartDate.GetValueOrDefault(),
-                Description = job.Description
+                NumberOfPositions = job.NumberOfPositions,
+                IsActive = job.IsActive,
+                CreatedOn = job.CreatedOn.GetValueOrDefault()
             };
             return jobResponseModel;
+        }
+        public async Task<int> AddJob(JobRequestModel model)
+        {
+            var jobEntity = new Job
+            {
+                Title = model.Title,
+                Description = model.Description,
+
+                StartDate = model.StartDate,
+                CreatedOn = DateTime.UtcNow,
+                NumberOfPositions = model.NumberOfPositions,
+                JobStatusLookupId = 1
+            };  
+            var job = await _jobRepository.AddAsync(jobEntity);
+            return job.Id;
         }
     }
 }
