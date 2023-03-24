@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "iFvO3Te7Klx82xO8opYCBwZk7BHZYgLvn2ZAP3H7Cw4vqi5/Dqm+fxaUUjb2qhmL6ZSHDfQdFYZ1BfLG3sFG3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jmaxw\\OneDrive\\Documents\\GitHub\\Justin_Wong_Antra_Assignments\\HRM\\src\\Services\\OnBoarding\\OnBoarding.API\\OnBoarding.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmaxw\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\jmaxw\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\jmaxw\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\jmaxw\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\jmaxw\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\jmaxw\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
